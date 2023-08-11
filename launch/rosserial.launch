@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<launch>
+    <arg name="serial_port" default="/dev/ttyUSB0"/>
+    
+    <node name="kbot_serial_node" pkg="rosserial_python" type="serial_node.py" output="screen">
+        <param name="port" value="$(arg  serial_port)"/>
+        <param name="tf_prefix" value=""/>
+    </node>
+
+</launch>
