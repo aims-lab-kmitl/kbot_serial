@@ -4,8 +4,10 @@ This package using for rosserial communication between lowlevel and highlevel
 ## Requirements
 - [rosserial arduino](http://wiki.ros.org/rosserial_arduino/Tutorials/Arduino%20IDE%20Setup)
 ```
-$ sudo apt-get install ros-noetic-rosserial-arduino
-$ sudo apt-get install ros-noetic-rosserial
+$ cd ~/catkin_ws/src
+$ git clone https://github.com/aims-lab-kmitl/rosserial.git
+$ cd ~/catkin_ws
+$ catkin_make
 ```
 ## Command
 ```
